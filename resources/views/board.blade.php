@@ -102,10 +102,10 @@
 
             if(!win){
                 if($('input[type=radio]:checked').length == 9){
-                    return 'Empate';
+                    return 'tie';
                 }
             } else {
-                return 'Has ganado';
+                return 'win';
             }
 
             return false;
